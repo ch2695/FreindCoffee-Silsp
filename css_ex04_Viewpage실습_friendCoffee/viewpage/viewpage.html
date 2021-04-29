@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>viewpage.html</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div id="header_gnb">
+                <ul>
+                    <li><a href="#">LOGOUT</a></li>
+                    <li><a href="#">MODIFY</a></li>
+                    <li><a href="#">MYPAGE</a></li>
+                    <li><a href="#">CART(o)</a></li>
+                    <li><a href="#">ORDER</a></li>
+                </ul>
+            </div>    <!-- div#header_gnb -->
+
+            <div id="logo">
+                <a href="#"><img src="images/top_logo.jpg" alt=""></a>
+            </div>    <!-- div#logo -->
+
+            <div id="search">
+                <div class="search">
+                    <input type="text" size="15" maxlength="10">
+                    <a href="#"><img src="images/searchIcon_01.png" alt=""></a>
+                </div>
+            </div>    <!-- div#search -->
+        </header>    <!-- header#header -->
+
+        <nav id="gnb">
+<!--           <img src="images/list_01.png" alt="">-->
+            <ul>
+                <li id="first_li"><a href="#"><img src="images/list_01.png" alt=""></a></li>
+                <li><a href="#">사업자 도매몰</a></li>
+                <li><a href="#">커피메이커</a></li>
+                <li><a href="#">드립용품</a></li>
+                <li><a href="#">컵&글라스</a></li>
+                <li><a href="#">티용품</a></li>
+                <li><a href="#">원두커피&시럽</a></li>
+                <li><a href="#">액세서리&매장용품</a></li>
+                <li><a href="#">커뮤니티</a></li>
+            </ul>
+        </nav>    <!-- nav#gnb -->
+
+        <main id="main">
+            <div id="list">
+                home > 원두커피&시럽 > 신선한 원두커피 > 프렌드 모카 블랜딩 커피 1kg
+            </div>
+
+            <div id="order">
+                <div id="banner">
+                    <a href="#"><img src="images/detail.jpg" alt="" width="300"></a>
+                    <div>
+                        <img src="images/icon_closeup.gif" alt="">
+                        <a href="#">큰 이미지 보기</a>
+                    </div>
+                </div>
+
+                <div id="orderArea">
+                    <div>
+                        <h4>프렌드 모카 블랜딩 커피 1kg</h4>
+                        <table>
+                            <tr>
+                                <td>적립금</td>
+                                <td>480 point</td>
+                            </tr>
+                            <tr>
+                                <td>판매가격</td>
+                                <td>16,000원</td>
+                            </tr>
+                            <tr>
+                                <td>분쇄도 선택</td>
+                                <td>
+                                    <select id="grinding">
+                                        <option selected>--옵션 선택--</option>
+                                        <option>원두상태(홀빈) (+0원)</option>
+                                        <option value="2000">더치커피용분쇄 (+2000원)</option>
+                                        <option value="3000">드립커피용분쇄 (+3000원)</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>수량</td>
+                                <td>
+                                    <select name="" id="cnt">
+                                        <option value="1">1개</option>
+                                        <option value="2">2개</option>
+                                        <option value="3">3개</option>
+                                        <option value="4">4개</option>
+                                        <option value="5">5개</option>
+                                        <option value="6">6개</option>
+                                        <option value="7">7개</option>
+                                        <option value="8">8개</option>
+                                        <option value="9">9개</option>
+                                        <option value="10">10개</option>
+                                    </select>
+
+                                    <button type="button" id="calcBtn">총액확인</button>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <div>
+                            총 상품 금액 <span id="totalPrice">0</span> 원
+                        </div>
+
+                        <div id="snslink">
+                            <a href="#"><img src="images/scrap_btn_FB.gif" alt=""></a>
+                            <a href="#"><img src="images/scrap_btn_TW.gif" alt=""></a>
+                        </div>
+
+                        <div id="orderBtn">
+                            <a href="#"><img src="images/btn_order.gif" alt=""></a>
+                            <a href="#"><img src="images/btn_cart_add.gif" alt=""></a>
+                            <a href="#"><img src="images/btn_wish.gif" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>    <!-- main#main -->
+    </div>    <!-- div#wrap -->
+</body>
+</html>
+
+
+
+
+
+
+
+

@@ -1,0 +1,266 @@
+@charset "UTF-8";
+
+/* Reset 시작 */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a  {text-decoration: none;}
+ul {list-style: none;}
+/* Reset 끝 */
+
+/* GuideLine 시작 */
+/*div#wrap                 {border: 1px solid #000;}*/
+/*header#header         {border: 1px solid #000;}*/
+/*div#header_gnb       {border: 1px solid #000;}*/
+/*div#logo                  {border: 1px solid #000;}*/
+/*div#search               {border: 1px solid #000;}*/
+/*div.search                {border: 1px solid #000;}*/
+/*nav#gnb                  {border: 1px solid #000;}*/
+/*nav#gnb ul>li           {border: 1px solid #000;}*/
+/*main#main>div        {border: 1px solid #000;}*/
+/*div#order>div          {border: 1px solid #000;}*/
+/* GuideLine 끝 */
+
+/* div#wrap 시작 */
+div#wrap {
+    width: 1215px;
+    height: 732px;
+}
+/* div#wrap 끝 */
+
+/* header#header 시작 */
+header#header {
+    height: 126px;
+}
+
+    /* div#header_gnb 시작 */
+div#header_gnb {
+    height: 25px;
+}
+
+div#header_gnb ul {
+    width: 450px;
+    margin-left: 884px;
+}
+
+div#header_gnb ul>li {
+    width: 70px;
+    font-size: 13px;
+    font-weight: bold;
+    float: left;
+}
+
+div#header_gnb ul>li>a {
+    color: #626262;
+}
+    /* div#header_gnb 끝 */
+
+    /* div#logo 시작 */
+div#logo {
+    height: 77px;
+    text-align: center;
+}
+    /* div#logo 끝 */
+
+    /* div#search 시작 */
+div#search {
+    width: 200px;
+    height: 40px;
+    padding: 2px;
+    position: relative;
+    left: 1045px;
+    top: -30px;
+}
+
+div#search>div.search {
+    border-bottom: 1px solid #000;
+    width: 158px;
+    padding: 10px;
+    position: relative;
+}
+
+div.search input {
+    outline: none;
+    border: none;
+}
+
+div.search a {
+    position: absolute;
+    left: 135px;
+    top: 12px;
+}
+    /* div#search 끝 */
+
+/* header#header 끝 */
+
+/* nav#gnb 시작 */
+nav#gnb {
+    height: 63px;
+}
+nav#gnb ul>li {
+    float: left;
+}
+
+nav#gnb ul>li>a {
+    width: 145px;
+    height: 50px;
+    padding: 10px 10px;
+    font-size: 14px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    background-color: #3e4347;
+    border-right: 1px solid #000;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+
+nav#gnb ul>li:nth-child(2)>a {
+    color: #ffff00;
+}
+
+nav#gnb ul>li#first_li>a{
+    width: 53px;
+    border: 1px solid #000;
+}
+/* nav#gnb 끝 */
+
+/* main#main 시작 */
+main#main div#list {
+    font-size: 13px;
+    height: 100px;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-left: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+    /* div#order 시작 */
+main#main div#order {
+    display: flex;
+}
+main#main div#banner {
+    width: 605px;
+    height: 440px;
+    position: relative;
+}
+
+main#main>div#order>div#banner div {
+    margin-top:360px;
+    text-align: center;
+    font-size: 15px;
+}
+
+main#main>div#order>div#banner div a {
+    color: #000;
+}
+
+main#main>div#order>div#banner a:first-child {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -58%);
+}
+
+main#main div#orderArea {
+    width: 605px;
+    height: 440px;
+}
+    /* div#order 끝 */
+
+    /* div#orderArea 시작 */
+div#orderArea h4 {
+    padding-left: 180px;
+    padding-top: 50px;
+}
+
+div#orderArea table {
+    margin-left: 100px;
+    margin-top: 30px;
+/*    border: 1px solid #000;*/
+}
+
+div#orderArea table td {
+    font-size: 13px;
+    height: 20px;
+/*    border: 1px solid #000;*/
+    padding: 3px 0;
+}
+
+div#orderArea table td:first-child {
+    width: 120px;
+}
+
+div#orderArea table tr:nth-child(2)>td:nth-child(2) {
+    color: #da2a34;
+    font-weight: bold;
+}
+
+div#orderArea select {
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 5px;
+}
+
+div#orderArea button {
+    margin-left: 45px;
+    border: 1px solid #aaa;
+    padding: 3px 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+div#orderArea>div>div {
+    border: 1px solid #ccc;
+    width: 310px;
+    margin-left: 100px;
+    text-align: right;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 13px;
+    padding-right: 5px;
+}
+
+div#orderArea>div>div span {
+    color: red;
+    font-weight: bold;
+}
+
+div#orderArea>div>div#snslink {
+    width: 330px;
+    height: 10px;
+    border: none;
+    padding-top: 5px;
+    padding-left: 0;
+    margin-top: 0px;
+    text-align: left;
+}
+
+div#orderArea>div div#orderBtn {
+    border: none;
+    width: 500px;
+    text-align: left;
+    padding-left: 0px;
+    margin-top: 26px
+}
+
+div#orderArea>div div#orderBtn a {
+    padding-right: 10px;
+}
+    /* div#orderArea 끝 */
+
+/* main#main 끝 */
+
+
+
+
+
+
+
+
+
+
+
